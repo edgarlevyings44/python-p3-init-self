@@ -2,3 +2,7 @@
 
 class Person:
     pass
+    def __init__(self, name):
+        self.name = name
+person = Person('James')
+print (person.name)
